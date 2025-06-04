@@ -1,4 +1,3 @@
-// src/pages/Homepage.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { CheckCircle, HeartHandshake, ArrowRight } from "lucide-react";
@@ -38,7 +37,7 @@ export default function Homepage() {
         ].map((item, index) => (
           <div
             key={index}
-            className="border border-blue-500 rounded-lg shadow-lg p-6 text-center bg-black hover:bg-blue-950 transition-transform transform hover:scale-105"
+            className="border border-blue-500 rounded-lg shadow-lg p-6 text-center bg-black"
           >
             <p className="text-4xl font-bold text-blue-400">{item.value}</p>
             <p className="mt-2 text-gray-300">{item.text}</p>
@@ -52,17 +51,17 @@ export default function Homepage() {
           Why Choose BizSites?
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="border border-green-400 rounded-lg shadow-xl p-6 bg-black hover:bg-green-900 transition-transform transform hover:scale-105">
+          <div className="border border-green-400 rounded-lg shadow-xl p-6 bg-black">
             <CheckCircle className="text-green-400 mb-4 w-10 h-10 mx-auto" />
             <h3 className="text-xl font-semibold text-green-300 text-center">100% Free</h3>
             <p className="mt-2 text-gray-300 text-center">No fees, no contracts, no strings attached. Ever.</p>
           </div>
-          <div className="border border-pink-400 rounded-lg shadow-xl p-6 bg-black hover:bg-pink-900 transition-transform transform hover:scale-105">
+          <div className="border border-pink-400 rounded-lg shadow-xl p-6 bg-black">
             <HeartHandshake className="text-pink-400 mb-4 w-10 h-10 mx-auto" />
             <h3 className="text-xl font-semibold text-pink-300 text-center">Give Back</h3>
             <p className="mt-2 text-gray-300 text-center">Optional donations go entirely to impactful charities like St. Jude.</p>
           </div>
-          <div className="border border-blue-400 rounded-lg shadow-xl p-6 bg-black hover:bg-blue-900 transition-transform transform hover:scale-105">
+          <div className="border border-blue-400 rounded-lg shadow-xl p-6 bg-black">
             <ArrowRight className="text-blue-400 mb-4 w-10 h-10 mx-auto" />
             <h3 className="text-xl font-semibold text-blue-300 text-center">Real Results</h3>
             <p className="mt-2 text-gray-300 text-center">Help your business grow and connect with customers online.</p>
