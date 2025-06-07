@@ -2,22 +2,22 @@ import React from "react";
 
 const projects = [
   {
-    title: "Mahin’s Personal Website",
+    title: "Personal Website",
     description: "A portfolio site showcasing my work, resume, and contact info.",
-    image: "https://via.placeholder.com/400x250",
-    link: "https://yourpersonalwebsite.com"
+    image: "/images/personalweb.png",
+    link: "https://mmahmud24.github.io/Personal_Website/"
   },
   {
-    title: "Local Restaurant Site",
-    description: "A clean, mobile-responsive website for a local restaurant with menu and booking info.",
-    image: "https://via.placeholder.com/400x250",
-    link: "#"
+    title: "Notes University",
+    description: "A clean, responsive website for note sharing designed for college students across the United States",
+    image: "/images/notesUniv.png",
+    link: "https://notes-university-frontend.onrender.com/"
   },
   {
-    title: "Clothing Shop Website",
-    description: "Modern layout with an integrated product gallery for a small clothing brand.",
-    image: "https://via.placeholder.com/400x250",
-    link: "#"
+    title: "Affordable Restaurants Website",
+    description: "Modern layout with an integrated gallery with affordable restaurants around New York City",
+    image: "/images/foodinnyc.png",
+    link: "https://mmahmud24.github.io/Affordable-Food-Blog/"
   }
 ];
 
@@ -39,7 +39,7 @@ export default function Portfolio() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-56 object-cover border-b border-blue-500"
+              className="w-full max-h-64 object-contain border-b border-blue-500"
             />
             <div className="p-4">
               <h2 className="text-xl font-semibold text-blue-300 mb-2">{project.title}</h2>
