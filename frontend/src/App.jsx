@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import About from "./pages/About"; 
 import Navbar from "./components/NavBar";
 import Portfolio from "./pages/Portfolio";
+import Donate from "./pages/Donate";
 import RequestWebsite from "./pages/RequestWebsite";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/request" element={<RequestWebsite />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
     </Router>
   );

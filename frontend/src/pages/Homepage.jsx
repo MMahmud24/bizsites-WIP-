@@ -21,7 +21,7 @@ export default function Homepage() {
           </Link>
           <Link to="/donate">
             <button className="border border-blue-400 text-blue-400 hover:bg-blue-800 text-lg font-medium px-6 py-3 rounded-full transition-transform transform hover:scale-105">
-              Donate to Charity
+              Make A Donation
             </button>
           </Link>
         </div>
